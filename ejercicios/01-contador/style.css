@@ -44,7 +44,7 @@ body {
     font-weight: 100;
     font-style: italic;
     border: 2px solid rgb(255, 255, 255);
-    
+
 }
 
 .reset {
@@ -65,11 +65,11 @@ body {
     0% {
         border: 4px solid tomato;
     }
-    
+
     100% {
         border: 4px solid white;
     }
-    
+
 }
 
 .animacion {
@@ -79,15 +79,20 @@ body {
 /* Definir la animación */
 @keyframes animacionContador {
     0% {
-        transform: scale(1);  /* Tamaño normal */
+        transform: scale(1);
+        /* Tamaño normal */
         color: black;
     }
+
     50% {
-        transform: scale(1.2);  /* Aumenta el tamaño */
+        transform: scale(1.2);
+        /* Aumenta el tamaño */
         color: tomato;
     }
+
     100% {
-        transform: scale(1);  /* Vuelve al tamaño original */
+        transform: scale(1);
+        /* Vuelve al tamaño original */
         color: black;
     }
 }

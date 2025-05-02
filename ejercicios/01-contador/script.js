@@ -11,7 +11,7 @@ function actualizarContador() {
 buttonEl.addEventListener("click", () => {
     contador++;
     actualizarContador();
-    
+
     contadorEl.classList.add("animacion");
 
     setTimeout(() => {
